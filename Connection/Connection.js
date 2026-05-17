@@ -8,7 +8,7 @@ async function lol() {
       const id = setTimeout(() => controller.abort(), timeout);
       const response = await fetch(testUrl, { method: "HEAD", mode: "no-cors", signal: controller.signal });
       clearTimeout(id);
-      return true; // If fetch doesn't throw, assume online
+      return true;
     } catch (err) {
       return false;
     }
