@@ -9,4 +9,4 @@ It will give scary popup on console about scam for no reason
 
 -- Not required to "run without sandbox" --
 
-// Do NOT expect something good here \\
+// Do NOT expect something good here \\\\
